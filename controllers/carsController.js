@@ -12,5 +12,5 @@ module.exports = {
         Car.find(req.body)
             .then(cars => res.send(cars))
             .catch(next);
-    }
+    }, 
 };
